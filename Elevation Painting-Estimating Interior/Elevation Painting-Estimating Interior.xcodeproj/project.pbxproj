@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildRule section */
+		63AA7CA52D3A029B006FD366 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = text.plist;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# built<key>NSCameraUsageDescription</key>\n<string>We need access to your camera for capturing photos.</string>\n<key>NSPhotoLibraryUsageDescription</key>\n<string>We need access to your photo library for selecting images.</string>\nin-copyPlist\n";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXContainerItemProxy section */
+		6322E6D22D38108200E0A9A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6322E6B72D38108100E0A9A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6322E6BE2D38108100E0A9A2;
+			remoteInfo = "Elevation Painting-Estimating Interior";
+		};
+		6322E6DC2D38108200E0A9A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6322E6B72D38108100E0A9A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6322E6BE2D38108100E0A9A2;
+			remoteInfo = "Elevation Painting-Estimating Interior";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6322E6BF2D38108100E0A9A2 /* Elevation Painting-Estimating Interior.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Elevation Painting-Estimating Interior.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6322E6D12D38108200E0A9A2 /* Elevation Painting-Estimating InteriorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Elevation Painting-Estimating InteriorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6322E6DB2D38108200E0A9A2 /* Elevation Painting-Estimating InteriorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Elevation Painting-Estimating InteriorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6322E6C12D38108100E0A9A2 /* Elevation Painting-Estimating Interior */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Elevation Painting-Estimating Interior";
+			sourceTree = "<group>";
+		};
+		6322E6D42D38108200E0A9A2 /* Elevation Painting-Estimating InteriorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Elevation Painting-Estimating InteriorTests";
+			sourceTree = "<group>";
+		};
+		6322E6DE2D38108200E0A9A2 /* Elevation Painting-Estimating InteriorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Elevation Painting-Estimating InteriorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6322E6BC2D38108100E0A9A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6322E6CE2D38108200E0A9A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6322E6D82D38108200E0A9A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6322E6B62D38108100E0A9A2 = {
+			isa = PBXGroup;
+			children = (
+				6322E6C12D38108100E0A9A2 /* Elevation Painting-Estimating Interior */,
+				6322E6D42D38108200E0A9A2 /* Elevation Painting-Estimating InteriorTests */,
+				6322E6DE2D38108200E0A9A2 /* Elevation Painting-Estimating InteriorUITests */,
+				6322E6C02D38108100E0A9A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6322E6C02D38108100E0A9A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6322E6BF2D38108100E0A9A2 /* Elevation Painting-Estimating Interior.app */,
+				6322E6D12D38108200E0A9A2 /* Elevation Painting-Estimating InteriorTests.xctest */,
+				6322E6DB2D38108200E0A9A2 /* Elevation Painting-Estimating InteriorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6322E6BE2D38108100E0A9A2 /* Elevation Painting-Estimating Interior */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6322E6E52D38108200E0A9A2 /* Build configuration list for PBXNativeTarget "Elevation Painting-Estimating Interior" */;
+			buildPhases = (
+				6322E6BB2D38108100E0A9A2 /* Sources */,
+				6322E6BC2D38108100E0A9A2 /* Frameworks */,
+				6322E6BD2D38108100E0A9A2 /* Resources */,
+			);
+			buildRules = (
+				63AA7CA52D3A029B006FD366 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6322E6C12D38108100E0A9A2 /* Elevation Painting-Estimating Interior */,
+			);
+			name = "Elevation Painting-Estimating Interior";
+			packageProductDependencies = (
+			);
+			productName = "Elevation Painting-Estimating Interior";
+			productReference = 6322E6BF2D38108100E0A9A2 /* Elevation Painting-Estimating Interior.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6322E6D02D38108200E0A9A2 /* Elevation Painting-Estimating InteriorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6322E6E82D38108200E0A9A2 /* Build configuration list for PBXNativeTarget "Elevation Painting-Estimating InteriorTests" */;
+			buildPhases = (
+				6322E6CD2D38108200E0A9A2 /* Sources */,
+				6322E6CE2D38108200E0A9A2 /* Frameworks */,
+				6322E6CF2D38108200E0A9A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6322E6D32D38108200E0A9A2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6322E6D42D38108200E0A9A2 /* Elevation Painting-Estimating InteriorTests */,
+			);
+			name = "Elevation Painting-Estimating InteriorTests";
+			packageProductDependencies = (
+			);
+			productName = "Elevation Painting-Estimating InteriorTests";
+			productReference = 6322E6D12D38108200E0A9A2 /* Elevation Painting-Estimating InteriorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6322E6DA2D38108200E0A9A2 /* Elevation Painting-Estimating InteriorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6322E6EB2D38108200E0A9A2 /* Build configuration list for PBXNativeTarget "Elevation Painting-Estimating InteriorUITests" */;
+			buildPhases = (
+				6322E6D72D38108200E0A9A2 /* Sources */,
+				6322E6D82D38108200E0A9A2 /* Frameworks */,
+				6322E6D92D38108200E0A9A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6322E6DD2D38108200E0A9A2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6322E6DE2D38108200E0A9A2 /* Elevation Painting-Estimating InteriorUITests */,
+			);
+			name = "Elevation Painting-Estimating InteriorUITests";
+			packageProductDependencies = (
+			);
+			productName = "Elevation Painting-Estimating InteriorUITests";
+			productReference = 6322E6DB2D38108200E0A9A2 /* Elevation Painting-Estimating InteriorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6322E6B72D38108100E0A9A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					6322E6BE2D38108100E0A9A2 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					6322E6D02D38108200E0A9A2 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 6322E6BE2D38108100E0A9A2;
+					};
+					6322E6DA2D38108200E0A9A2 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 6322E6BE2D38108100E0A9A2;
+					};
+				};
+			};
+			buildConfigurationList = 6322E6BA2D38108100E0A9A2 /* Build configuration list for PBXProject "Elevation Painting-Estimating Interior" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6322E6B62D38108100E0A9A2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6322E6C02D38108100E0A9A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6322E6BE2D38108100E0A9A2 /* Elevation Painting-Estimating Interior */,
+				6322E6D02D38108200E0A9A2 /* Elevation Painting-Estimating InteriorTests */,
+				6322E6DA2D38108200E0A9A2 /* Elevation Painting-Estimating InteriorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6322E6BD2D38108100E0A9A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6322E6CF2D38108200E0A9A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6322E6D92D38108200E0A9A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6322E6BB2D38108100E0A9A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6322E6CD2D38108200E0A9A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6322E6D72D38108200E0A9A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6322E6D32D38108200E0A9A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6322E6BE2D38108100E0A9A2 /* Elevation Painting-Estimating Interior */;
+			targetProxy = 6322E6D22D38108200E0A9A2 /* PBXContainerItemProxy */;
+		};
+		6322E6DD2D38108200E0A9A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6322E6BE2D38108100E0A9A2 /* Elevation Painting-Estimating Interior */;
+			targetProxy = 6322E6DC2D38108200E0A9A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6322E6E32D38108200E0A9A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_OUTPUT_FORMAT = "same-as-input";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6322E6E42D38108200E0A9A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_OUTPUT_FORMAT = "same-as-input";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6322E6E62D38108200E0A9A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Elevation Painting-Estimating Interior/Preview Content\"";
+				DEVELOPMENT_TEAM = L32TN79QKN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Elevation-Painting-Estimating-Interior-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Elevation-Painting-Estimating-Interior";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6322E6E72D38108200E0A9A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Elevation Painting-Estimating Interior/Preview Content\"";
+				DEVELOPMENT_TEAM = L32TN79QKN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Elevation-Painting-Estimating-Interior-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Elevation-Painting-Estimating-Interior";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6322E6E92D38108200E0A9A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L32TN79QKN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Elevation-Painting-Estimating-InteriorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elevation Painting-Estimating Interior.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Elevation Painting-Estimating Interior";
+			};
+			name = Debug;
+		};
+		6322E6EA2D38108200E0A9A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L32TN79QKN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Elevation-Painting-Estimating-InteriorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elevation Painting-Estimating Interior.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Elevation Painting-Estimating Interior";
+			};
+			name = Release;
+		};
+		6322E6EC2D38108200E0A9A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L32TN79QKN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Elevation-Painting-Estimating-InteriorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Elevation Painting-Estimating Interior";
+			};
+			name = Debug;
+		};
+		6322E6ED2D38108200E0A9A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L32TN79QKN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Elevation-Painting-Estimating-InteriorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Elevation Painting-Estimating Interior";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6322E6BA2D38108100E0A9A2 /* Build configuration list for PBXProject "Elevation Painting-Estimating Interior" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6322E6E32D38108200E0A9A2 /* Debug */,
+				6322E6E42D38108200E0A9A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6322E6E52D38108200E0A9A2 /* Build configuration list for PBXNativeTarget "Elevation Painting-Estimating Interior" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6322E6E62D38108200E0A9A2 /* Debug */,
+				6322E6E72D38108200E0A9A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6322E6E82D38108200E0A9A2 /* Build configuration list for PBXNativeTarget "Elevation Painting-Estimating InteriorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6322E6E92D38108200E0A9A2 /* Debug */,
+				6322E6EA2D38108200E0A9A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6322E6EB2D38108200E0A9A2 /* Build configuration list for PBXNativeTarget "Elevation Painting-Estimating InteriorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6322E6EC2D38108200E0A9A2 /* Debug */,
+				6322E6ED2D38108200E0A9A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6322E6B72D38108100E0A9A2 /* Project object */;
+}
